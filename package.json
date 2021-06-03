@@ -1,0 +1,19 @@
+{
+  "name": "mithril-test",
+  "version": "1.0.0",
+  "description": "Introduction to Web Development Stuff<br/><br/>",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack ./src/index.js --output-path ./bin --mode=development --watch"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mithril": "^2.0.4"
+  },
+  "devDependencies": {
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  }
+}
